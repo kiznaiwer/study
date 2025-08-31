@@ -1,5 +1,3 @@
-package homework.task1
-
 fun main(args: Array<String>) {
     println("Введите высоту: ")
     val height = readln()!!.toDouble()
