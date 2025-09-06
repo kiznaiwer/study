@@ -8,6 +8,6 @@ package hmGit
 fun main() {
     println("Enter a number: ")
     val num1 : String = readln()
-         if (num1 == num1.reversed()){ println("The number $num1 is a palindrome.") }
-         else { println("The number $num1 is a not palindrome.") }
+         if (num1 == num1.reversed()){ println("The number $num1 is a palindrome") }
+         else { println("The number $num1 is a not palindrome") }
 }
