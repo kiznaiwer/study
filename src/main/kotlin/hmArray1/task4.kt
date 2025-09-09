@@ -9,7 +9,7 @@ package hmArray1
  */
  fun main() {
 
-     val arr = arrayOf(1, 2, 4, 4, 3, 2, 1)
+     val arr = arrayOf(1, 2, 3, 4, 3, 2, 1)
      var m = 0
      var n = arr.size - 1
      var palindrome = true
@@ -19,6 +19,7 @@ package hmArray1
              palindrome = false
          }
          m++
+         n--
      }
 
      if (palindrome){
