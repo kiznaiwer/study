@@ -7,7 +7,7 @@ package hmArray1
  */
 
 fun main(){
-    var arr = arrayOf(3, 4, 76, 89, 12, 19, 33, 34, 56, 43, 10, 6)
+    val arr = arrayOf(3, 4, 76, 89, 12, 19, 33, 34, 56, 43, 10, 6)
     var evNum = 0
     var odd = 0
     for (i in arr){
