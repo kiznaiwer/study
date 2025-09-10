@@ -19,10 +19,3 @@ fun main(){
     }
     println(res)
 }
-
-// 2ой вариант
-fun mainV2(){
-    println("Enter the text: ")
-    val text1 = readln()
-
-}
